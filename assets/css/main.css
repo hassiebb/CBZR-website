@@ -2012,17 +2012,17 @@ section,
   margin-bottom: 0.5rem;
 }
 
-.events .event-card .event-tag.academic {
+.events .event-card .event-tag.training {
   background-color: #e3f2fd;
   color: #0d47a1;
 }
 
-.events .event-card .event-tag.sports {
+.events .event-card .event-tag.workshops {
   background-color: #e8f5e9;
   color: #2e7d32;
 }
 
-.events .event-card .event-tag.arts {
+.events .event-card .event-tag.certification {
   background-color: #ffebee;
   color: #c62828;
 }
