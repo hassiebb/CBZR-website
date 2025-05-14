@@ -1365,19 +1365,19 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Students Life Block Section
+# Referee Education Block Section
 --------------------------------------------------------------*/
-.students-life-block .students-life-img {
+.referee-education-block .referee-education-img {
   overflow: hidden;
   border-radius: 1rem;
 }
 
-.students-life-block .students-life-img img {
+.referee-education-block .referee-education-img img {
   transition: transform 0.5s ease;
   width: 100%;
 }
 
-.students-life-block .students-life-img .img-overlay {
+.referee-education-block .referee-education-img .img-overlay {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -1387,47 +1387,47 @@ section,
   transition: all 0.3s ease;
 }
 
-.students-life-block .students-life-img .img-overlay h3 {
+.referee-education-block .referee-education-img .img-overlay h3 {
   color: var(--contrast-color);
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
 }
 
-.students-life-block .students-life-img .img-overlay .explore-btn {
+.referee-education-block .referee-education-img .img-overlay .explore-btn {
   color: color-mix(in srgb, var(--accent-color), var(--contrast-color) 30%);
   font-weight: 500;
   display: inline-flex;
   align-items: center;
 }
 
-.students-life-block .students-life-img .img-overlay .explore-btn i {
+.referee-education-block .referee-education-img .img-overlay .explore-btn i {
   margin-left: 5px;
   transition: transform 0.3s;
 }
 
-.students-life-block .students-life-img .img-overlay .explore-btn:hover {
+.referee-education-block .referee-education-img .img-overlay .explore-btn:hover {
   color: var(--contrast-color);
 }
 
-.students-life-block .students-life-img .img-overlay .explore-btn:hover i {
+.referee-education-block .referee-education-img .img-overlay .explore-btn:hover i {
   transform: translateX(5px);
 }
 
-.students-life-block .students-life-img:hover img {
+.referee-education-block .referee-education-img:hover img {
   transform: scale(1.05);
 }
 
-.students-life-block .students-life-img:hover .img-overlay {
+.referee-education-block .referee-education-img:hover .img-overlay {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
 }
 
-.students-life-block .students-life-content h2 {
+.referee-education-block .referee-education-content h2 {
   font-size: 2.2rem;
   margin-bottom: 1rem;
   position: relative;
 }
 
-.students-life-block .students-life-content h2:after {
+.referee-education-block .referee-education-content h2:after {
   content: "";
   position: absolute;
   left: 0;
@@ -1437,12 +1437,12 @@ section,
   background-color: var(--accent-color);
 }
 
-.students-life-block .students-life-content p {
+.referee-education-block .referee-education-content p {
   margin-top: 1.5rem;
   line-height: 1.7;
 }
 
-.students-life-block .student-activity-item {
+.referee-education-block .student-activity-item {
   background-color: var(--surface-color);
   border-radius: 0.5rem;
   padding: 1.5rem;
@@ -1451,7 +1451,7 @@ section,
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
 
-.students-life-block .student-activity-item .icon-box {
+.referee-education-block .student-activity-item .icon-box {
   background-color: color-mix(in srgb, var(--accent-color), transparent 85%);
   width: 50px;
   height: 50px;
@@ -1463,40 +1463,40 @@ section,
   transition: all 0.3s ease;
 }
 
-.students-life-block .student-activity-item .icon-box i {
+.referee-education-block .student-activity-item .icon-box i {
   font-size: 1.5rem;
   color: var(--accent-color);
 }
 
-.students-life-block .student-activity-item h4 {
+.referee-education-block .student-activity-item h4 {
   font-size: 1.1rem;
   margin-bottom: 0.5rem;
 }
 
-.students-life-block .student-activity-item p {
+.referee-education-block .student-activity-item p {
   font-size: 0.9rem;
   margin-top: 0;
   margin-bottom: 0;
 }
 
-.students-life-block .student-activity-item:hover {
+.referee-education-block .student-activity-item:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
 }
 
-.students-life-block .student-activity-item:hover .icon-box {
+.referee-education-block .student-activity-item:hover .icon-box {
   background-color: var(--accent-color);
 }
 
-.students-life-block .student-activity-item:hover .icon-box i {
+.referee-education-block .student-activity-item:hover .icon-box i {
   color: var(--contrast-color);
 }
 
-.students-life-block .students-life-cta {
+.referee-education-block .referee-education-cta {
   margin-top: 1rem;
 }
 
-.students-life-block .students-life-cta .btn-primary {
+.referee-education-block .referee-education-cta .btn-primary {
   background-color: var(--accent-color);
   border-color: var(--accent-color);
   color: var(--contrast-color);
@@ -1506,24 +1506,24 @@ section,
   transition: all 0.3s;
 }
 
-.students-life-block .students-life-cta .btn-primary:hover {
+.referee-education-block .referee-education-cta .btn-primary:hover {
   background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
   border-color: color-mix(in srgb, var(--accent-color), transparent 20%);
   transform: translateY(-2px);
 }
 
 @media (max-width: 992px) {
-  .students-life-block .students-life-img {
+  .referee-education-block .referee-education-img {
     margin-bottom: 2rem;
   }
 
-  .students-life-block .students-life-content h2 {
+  .referee-education-block .referee-education-content h2 {
     font-size: 1.8rem;
   }
 }
 
 @media (max-width: 768px) {
-  .students-life-block .student-activity-item {
+  .referee-education-block .student-activity-item {
     margin-bottom: 1rem;
   }
 }
@@ -3346,9 +3346,9 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Students Life Section
+# Referee Education Section
 --------------------------------------------------------------*/
-.students-life .students-life-banner {
+.referee-education .referee-education-banner {
   position: relative;
   border-radius: 12px;
   overflow: hidden;
@@ -3357,13 +3357,13 @@ section,
   margin-bottom: 40px;
 }
 
-.students-life .students-life-banner img {
+.referee-education .referee-education-banner img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.students-life .students-life-banner .banner-content {
+.referee-education .referee-education-banner .banner-content {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -3373,14 +3373,14 @@ section,
   color: var(--contrast-color);
 }
 
-.students-life .students-life-banner .banner-content h2 {
+.referee-education .referee-education-banner .banner-content h2 {
   color: var(--contrast-color);
   font-size: 2.5rem;
   margin-bottom: 15px;
   font-weight: 700;
 }
 
-.students-life .students-life-banner .banner-content p {
+.referee-education .referee-education-banner .banner-content p {
   font-size: 1.1rem;
   max-width: 600px;
   margin-bottom: 0;
@@ -3388,24 +3388,24 @@ section,
 }
 
 @media (max-width: 768px) {
-  .students-life .students-life-banner {
+  .referee-education .referee-education-banner {
     height: 350px;
   }
 
-  .students-life .students-life-banner .banner-content {
+  .referee-education .referee-education-banner .banner-content {
     padding: 60px 25px 25px;
   }
 
-  .students-life .students-life-banner .banner-content h2 {
+  .referee-education .referee-education-banner .banner-content h2 {
     font-size: 1.8rem;
   }
 
-  .students-life .students-life-banner .banner-content p {
+  .referee-education .referee-education-banner .banner-content p {
     font-size: 1rem;
   }
 }
 
-.students-life .life-categories .category-card {
+.referee-education .life-categories .category-card {
   text-align: center;
   background-color: var(--surface-color);
   border-radius: 12px;
@@ -3415,20 +3415,20 @@ section,
   height: 100%;
 }
 
-.students-life .life-categories .category-card:hover {
+.referee-education .life-categories .category-card:hover {
   transform: translateY(-7px);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
-.students-life .life-categories .category-card:hover .icon-container {
+.referee-education .life-categories .category-card:hover .icon-container {
   background-color: var(--accent-color);
 }
 
-.students-life .life-categories .category-card:hover .icon-container i {
+.referee-education .life-categories .category-card:hover .icon-container i {
   color: var(--contrast-color);
 }
 
-.students-life .life-categories .category-card .icon-container {
+.referee-education .life-categories .category-card .icon-container {
   width: 70px;
   height: 70px;
   border-radius: 50%;
@@ -3440,29 +3440,29 @@ section,
   transition: all 0.3s ease;
 }
 
-.students-life .life-categories .category-card .icon-container i {
+.referee-education .life-categories .category-card .icon-container i {
   font-size: 30px;
   color: var(--accent-color);
   transition: all 0.3s ease;
 }
 
-.students-life .life-categories .category-card h4 {
+.referee-education .life-categories .category-card h4 {
   font-size: 1.2rem;
   margin-bottom: 10px;
   color: var(--heading-color);
 }
 
-.students-life .life-categories .category-card p {
+.referee-education .life-categories .category-card p {
   font-size: 0.9rem;
   margin-bottom: 0;
   color: color-mix(in srgb, var(--default-color), transparent 30%);
 }
 
-.students-life .students-life-tabs {
+.referee-education .referee-education-tabs {
   margin-top: 60px;
 }
 
-.students-life .students-life-tabs .nav-pills {
+.referee-education .referee-education-tabs .nav-pills {
   border-radius: 50px;
   display: inline-flex;
   background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
@@ -3470,7 +3470,7 @@ section,
   margin-bottom: 40px;
 }
 
-.students-life .students-life-tabs .nav-pills .nav-link {
+.referee-education .referee-education-tabs .nav-pills .nav-link {
   border-radius: 50px;
   padding: 10px 20px;
   margin: 0 5px;
@@ -3481,52 +3481,52 @@ section,
   align-items: center;
 }
 
-.students-life .students-life-tabs .nav-pills .nav-link i {
+.referee-education .referee-education-tabs .nav-pills .nav-link i {
   margin-right: 8px;
   font-size: 1.1rem;
 }
 
-.students-life .students-life-tabs .nav-pills .nav-link.active {
+.referee-education .referee-education-tabs .nav-pills .nav-link.active {
   background-color: var(--accent-color);
   color: var(--contrast-color);
 }
 
 @media (max-width: 768px) {
-  .students-life .students-life-tabs .nav-pills {
+  .referee-education .referee-education-tabs .nav-pills {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
 
-  .students-life .students-life-tabs .nav-pills .nav-link {
+  .referee-education .referee-education-tabs .nav-pills .nav-link {
     margin: 5px;
     font-size: 0.9rem;
     padding: 8px 15px;
   }
 }
 
-.students-life .students-life-tabs .tab-content {
+.referee-education .referee-education-tabs .tab-content {
   position: relative;
 }
 
-.students-life .students-life-tabs .tab-content .tab-pane {
+.referee-education .referee-education-tabs .tab-content .tab-pane {
   transition: all 0.3s ease;
 }
 
-.students-life .students-life-tabs .tab-content .tab-content-image {
+.referee-education .referee-education-tabs .tab-content .tab-content-image {
   position: relative;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
 
-.students-life .students-life-tabs .tab-content .tab-content-image img {
+.referee-education .referee-education-tabs .tab-content .tab-content-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.students-life .students-life-tabs .tab-content .tab-content-image .stat-badge {
+.referee-education .referee-education-tabs .tab-content .tab-content-image .stat-badge {
   position: absolute;
   top: 20px;
   right: 20px;
@@ -3537,37 +3537,37 @@ section,
   text-align: center;
 }
 
-.students-life .students-life-tabs .tab-content .tab-content-image .stat-badge .number {
+.referee-education .referee-education-tabs .tab-content .tab-content-image .stat-badge .number {
   font-size: 1.8rem;
   font-weight: 700;
   display: block;
   line-height: 1;
 }
 
-.students-life .students-life-tabs .tab-content .tab-content-image .stat-badge .text {
+.referee-education .referee-education-tabs .tab-content .tab-content-image .stat-badge .text {
   font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
-.students-life .students-life-tabs .tab-content .tab-content-text {
+.referee-education .referee-education-tabs .tab-content .tab-content-text {
   height: 100%;
   display: flex;
   flex-direction: column;
 }
 
-.students-life .students-life-tabs .tab-content .tab-content-text h3 {
+.referee-education .referee-education-tabs .tab-content .tab-content-text h3 {
   margin-bottom: 20px;
   color: var(--heading-color);
   font-size: 1.8rem;
 }
 
-.students-life .students-life-tabs .tab-content .tab-content-text p {
+.referee-education .referee-education-tabs .tab-content .tab-content-text p {
   margin-bottom: 20px;
   line-height: 1.7;
 }
 
-.students-life .students-life-tabs .tab-content .club-category {
+.referee-education .referee-education-tabs .tab-content .club-category {
   display: flex;
   align-items: center;
   background-color: var(--surface-color);
@@ -3578,20 +3578,20 @@ section,
   height: 100%;
 }
 
-.students-life .students-life-tabs .tab-content .club-category:hover {
+.referee-education .referee-education-tabs .tab-content .club-category:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
 }
 
-.students-life .students-life-tabs .tab-content .club-category:hover .icon-box {
+.referee-education .referee-education-tabs .tab-content .club-category:hover .icon-box {
   background-color: var(--accent-color);
 }
 
-.students-life .students-life-tabs .tab-content .club-category:hover .icon-box i {
+.referee-education .referee-education-tabs .tab-content .club-category:hover .icon-box i {
   color: var(--contrast-color);
 }
 
-.students-life .students-life-tabs .tab-content .club-category .icon-box {
+.referee-education .referee-education-tabs .tab-content .club-category .icon-box {
   min-width: 50px;
   height: 50px;
   border-radius: 8px;
@@ -3603,32 +3603,32 @@ section,
   transition: all 0.3s ease;
 }
 
-.students-life .students-life-tabs .tab-content .club-category .icon-box i {
+.referee-education .referee-education-tabs .tab-content .club-category .icon-box i {
   font-size: 22px;
   color: var(--accent-color);
   transition: all 0.3s ease;
 }
 
-.students-life .students-life-tabs .tab-content .club-category .content h5 {
+.referee-education .referee-education-tabs .tab-content .club-category .content h5 {
   margin-bottom: 5px;
   font-size: 1rem;
   color: var(--heading-color);
 }
 
-.students-life .students-life-tabs .tab-content .club-category .content p {
+.referee-education .referee-education-tabs .tab-content .club-category .content p {
   margin-bottom: 0;
   font-size: 0.85rem;
   color: color-mix(in srgb, var(--default-color), transparent 30%);
 }
 
-.students-life .students-life-tabs .tab-content .stats-container {
+.referee-education .referee-education-tabs .tab-content .stats-container {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
 }
 
-.students-life .students-life-tabs .tab-content .stats-container .stat-item {
+.referee-education .referee-education-tabs .tab-content .stats-container .stat-item {
   text-align: center;
   background-color: var(--surface-color);
   border-radius: 10px;
@@ -3638,7 +3638,7 @@ section,
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
 
-.students-life .students-life-tabs .tab-content .stats-container .stat-item .number {
+.referee-education .referee-education-tabs .tab-content .stats-container .stat-item .number {
   display: block;
   font-size: 2.5rem;
   font-weight: 700;
@@ -3646,37 +3646,37 @@ section,
   line-height: 1.1;
 }
 
-.students-life .students-life-tabs .tab-content .stats-container .stat-item .label {
+.referee-education .referee-education-tabs .tab-content .stats-container .stat-item .label {
   display: block;
   font-size: 0.9rem;
   color: var(--heading-color);
   margin-top: 8px;
 }
 
-.students-life .students-life-tabs .tab-content .athletic-programs-slider {
+.referee-education .referee-education-tabs .tab-content .athletic-programs-slider {
   margin-top: 40px;
   padding-bottom: 50px;
 }
 
-.students-life .students-life-tabs .tab-content .athletic-programs-slider .swiper-wrapper {
+.referee-education .referee-education-tabs .tab-content .athletic-programs-slider .swiper-wrapper {
   height: auto !important;
 }
 
-.students-life .students-life-tabs .tab-content .athletic-programs-slider .sport-card {
+.referee-education .referee-education-tabs .tab-content .athletic-programs-slider .sport-card {
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
   position: relative;
 }
 
-.students-life .students-life-tabs .tab-content .athletic-programs-slider .sport-card img {
+.referee-education .referee-education-tabs .tab-content .athletic-programs-slider .sport-card img {
   width: 100%;
   aspect-ratio: 1/1;
   object-fit: cover;
   transition: transform 0.5s ease;
 }
 
-.students-life .students-life-tabs .tab-content .athletic-programs-slider .sport-card .sport-info {
+.referee-education .referee-education-tabs .tab-content .athletic-programs-slider .sport-card .sport-info {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -3686,13 +3686,13 @@ section,
   color: var(--contrast-color);
 }
 
-.students-life .students-life-tabs .tab-content .athletic-programs-slider .sport-card .sport-info h5 {
+.referee-education .referee-education-tabs .tab-content .athletic-programs-slider .sport-card .sport-info h5 {
   color: var(--contrast-color);
   margin-bottom: 8px;
   font-size: 1.1rem;
 }
 
-.students-life .students-life-tabs .tab-content .athletic-programs-slider .sport-card .sport-info .badge {
+.referee-education .referee-education-tabs .tab-content .athletic-programs-slider .sport-card .sport-info .badge {
   display: inline-block;
   background-color: var(--accent-color);
   color: var(--contrast-color);
@@ -3702,28 +3702,28 @@ section,
   font-weight: 500;
 }
 
-.students-life .students-life-tabs .tab-content .athletic-programs-slider .sport-card:hover img {
+.referee-education .referee-education-tabs .tab-content .athletic-programs-slider .sport-card:hover img {
   transform: scale(1.1);
 }
 
-.students-life .students-life-tabs .tab-content .athletic-programs-slider .swiper-pagination {
+.referee-education .referee-education-tabs .tab-content .athletic-programs-slider .swiper-pagination {
   bottom: 0;
 }
 
-.students-life .students-life-tabs .tab-content .athletic-programs-slider .swiper-pagination .swiper-pagination-bullet {
+.referee-education .referee-education-tabs .tab-content .athletic-programs-slider .swiper-pagination .swiper-pagination-bullet {
   width: 10px;
   height: 10px;
   background-color: color-mix(in srgb, var(--accent-color), transparent 60%);
   opacity: 1;
 }
 
-.students-life .students-life-tabs .tab-content .athletic-programs-slider .swiper-pagination .swiper-pagination-bullet-active {
+.referee-education .referee-education-tabs .tab-content .athletic-programs-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: var(--accent-color);
   width: 12px;
   height: 12px;
 }
 
-.students-life .students-life-tabs .tab-content .facilities-gallery img {
+.referee-education .referee-education-tabs .tab-content .facilities-gallery img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -3731,34 +3731,34 @@ section,
   transition: transform 0.3s ease;
 }
 
-.students-life .students-life-tabs .tab-content .facilities-gallery img:hover {
+.referee-education .referee-education-tabs .tab-content .facilities-gallery img:hover {
   transform: scale(1.03);
 }
 
-.students-life .students-life-tabs .tab-content .facilities-info {
+.referee-education .referee-education-tabs .tab-content .facilities-info {
   height: 100%;
   display: flex;
   flex-direction: column;
 }
 
-.students-life .students-life-tabs .tab-content .facilities-info h3 {
+.referee-education .referee-education-tabs .tab-content .facilities-info h3 {
   margin-bottom: 20px;
   color: var(--heading-color);
 }
 
-.students-life .students-life-tabs .tab-content .facilities-info p {
+.referee-education .referee-education-tabs .tab-content .facilities-info p {
   margin-bottom: 20px;
   line-height: 1.7;
 }
 
-.students-life .students-life-tabs .tab-content .facilities-list {
+.referee-education .referee-education-tabs .tab-content .facilities-list {
   display: flex;
   flex-direction: column;
   gap: 20px;
   margin-bottom: 20px;
 }
 
-.students-life .students-life-tabs .tab-content .facilities-list .facility-item {
+.referee-education .referee-education-tabs .tab-content .facilities-list .facility-item {
   display: flex;
   align-items: flex-start;
   background-color: var(--surface-color);
@@ -3768,33 +3768,33 @@ section,
   transition: transform 0.3s ease;
 }
 
-.students-life .students-life-tabs .tab-content .facilities-list .facility-item:hover {
+.referee-education .referee-education-tabs .tab-content .facilities-list .facility-item:hover {
   transform: translateY(-5px);
 }
 
-.students-life .students-life-tabs .tab-content .facilities-list .facility-item:hover i {
+.referee-education .referee-education-tabs .tab-content .facilities-list .facility-item:hover i {
   color: var(--accent-color);
 }
 
-.students-life .students-life-tabs .tab-content .facilities-list .facility-item i {
+.referee-education .referee-education-tabs .tab-content .facilities-list .facility-item i {
   font-size: 24px;
   color: var(--heading-color);
   margin-right: 15px;
   transition: color 0.3s ease;
 }
 
-.students-life .students-life-tabs .tab-content .facilities-list .facility-item h5 {
+.referee-education .referee-education-tabs .tab-content .facilities-list .facility-item h5 {
   margin-bottom: 5px;
   font-size: 1rem;
 }
 
-.students-life .students-life-tabs .tab-content .facilities-list .facility-item p {
+.referee-education .referee-education-tabs .tab-content .facilities-list .facility-item p {
   margin-bottom: 0;
   font-size: 0.85rem;
   color: color-mix(in srgb, var(--default-color), transparent 30%);
 }
 
-.students-life .students-life-tabs .tab-content .support-card {
+.referee-education .referee-education-tabs .tab-content .support-card {
   background-color: var(--surface-color);
   border-radius: 10px;
   padding: 25px;
@@ -3805,28 +3805,28 @@ section,
   flex-direction: column;
 }
 
-.students-life .students-life-tabs .tab-content .support-card:hover {
+.referee-education .referee-education-tabs .tab-content .support-card:hover {
   transform: translateY(-10px);
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
 }
 
-.students-life .students-life-tabs .tab-content .support-card:hover .icon {
+.referee-education .referee-education-tabs .tab-content .support-card:hover .icon {
   background-color: var(--accent-color);
 }
 
-.students-life .students-life-tabs .tab-content .support-card:hover .icon i {
+.referee-education .referee-education-tabs .tab-content .support-card:hover .icon i {
   color: var(--contrast-color);
 }
 
-.students-life .students-life-tabs .tab-content .support-card:hover .service-link {
+.referee-education .referee-education-tabs .tab-content .support-card:hover .service-link {
   color: color-mix(in srgb, var(--accent-color), transparent 25%);
 }
 
-.students-life .students-life-tabs .tab-content .support-card:hover .service-link i {
+.referee-education .referee-education-tabs .tab-content .support-card:hover .service-link i {
   transform: translateX(5px);
 }
 
-.students-life .students-life-tabs .tab-content .support-card .icon {
+.referee-education .referee-education-tabs .tab-content .support-card .icon {
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -3838,25 +3838,25 @@ section,
   transition: all 0.3s ease;
 }
 
-.students-life .students-life-tabs .tab-content .support-card .icon i {
+.referee-education .referee-education-tabs .tab-content .support-card .icon i {
   font-size: 26px;
   color: var(--accent-color);
   transition: all 0.3s ease;
 }
 
-.students-life .students-life-tabs .tab-content .support-card h5 {
+.referee-education .referee-education-tabs .tab-content .support-card h5 {
   font-size: 1.2rem;
   margin-bottom: 15px;
   color: var(--heading-color);
 }
 
-.students-life .students-life-tabs .tab-content .support-card p {
+.referee-education .referee-education-tabs .tab-content .support-card p {
   font-size: 0.95rem;
   margin-bottom: 15px;
   flex-grow: 1;
 }
 
-.students-life .students-life-tabs .tab-content .support-card .service-link {
+.referee-education .referee-education-tabs .tab-content .support-card .service-link {
   color: var(--accent-color);
   font-weight: 500;
   font-size: 0.9rem;
@@ -3866,31 +3866,31 @@ section,
   transition: all 0.3s ease;
 }
 
-.students-life .students-life-tabs .tab-content .support-card .service-link i {
+.referee-education .referee-education-tabs .tab-content .support-card .service-link i {
   margin-left: 5px;
   transition: all 0.3s ease;
 }
 
-.students-life .students-life-tabs .tab-content .contact-info-box {
+.referee-education .referee-education-tabs .tab-content .contact-info-box {
   background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
   padding: 30px;
   border-radius: 10px;
 }
 
-.students-life .students-life-tabs .tab-content .contact-info-box h4 {
+.referee-education .referee-education-tabs .tab-content .contact-info-box h4 {
   margin-bottom: 10px;
   color: var(--heading-color);
 }
 
-.students-life .students-life-tabs .tab-content .contact-info-box p {
+.referee-education .referee-education-tabs .tab-content .contact-info-box p {
   margin-bottom: 15px;
 }
 
-.students-life .students-life-gallery .section-header {
+.referee-education .referee-education-gallery .section-header {
   margin-bottom: 30px;
 }
 
-.students-life .students-life-gallery .section-header h3 {
+.referee-education .referee-education-gallery .section-header h3 {
   color: var(--heading-color);
   margin-bottom: 10px;
   position: relative;
@@ -3898,7 +3898,7 @@ section,
   padding-bottom: 15px;
 }
 
-.students-life .students-life-gallery .section-header h3:after {
+.referee-education .referee-education-gallery .section-header h3:after {
   content: "";
   position: absolute;
   width: 60px;
@@ -3909,13 +3909,13 @@ section,
   transform: translateX(-50%);
 }
 
-.students-life .students-life-gallery .section-header p {
+.referee-education .referee-education-gallery .section-header p {
   color: color-mix(in srgb, var(--default-color), transparent 30%);
   max-width: 600px;
   margin: 0 auto;
 }
 
-.students-life .students-life-gallery .gallery-item {
+.referee-education .referee-education-gallery .gallery-item {
   display: block;
   border-radius: 10px;
   overflow: hidden;
@@ -3924,14 +3924,14 @@ section,
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
 }
 
-.students-life .students-life-gallery .gallery-item img {
+.referee-education .referee-education-gallery .gallery-item img {
   width: 100%;
   aspect-ratio: 4/3;
   object-fit: cover;
   transition: all 0.4s ease;
 }
 
-.students-life .students-life-gallery .gallery-item .gallery-overlay {
+.referee-education .referee-education-gallery .gallery-item .gallery-overlay {
   position: absolute;
   inset: 0;
   background-color: rgba(0, 0, 0, 0.4);
@@ -3942,7 +3942,7 @@ section,
   transition: all 0.3s ease;
 }
 
-.students-life .students-life-gallery .gallery-item .gallery-overlay span {
+.referee-education .referee-education-gallery .gallery-item .gallery-overlay span {
   color: var(--contrast-color);
   font-size: 1.1rem;
   font-weight: 500;
@@ -3950,23 +3950,23 @@ section,
   transition: all 0.3s ease;
 }
 
-.students-life .students-life-gallery .gallery-item:hover img {
+.referee-education .referee-education-gallery .gallery-item:hover img {
   transform: scale(1.1);
 }
 
-.students-life .students-life-gallery .gallery-item:hover .gallery-overlay {
+.referee-education .referee-education-gallery .gallery-item:hover .gallery-overlay {
   opacity: 1;
 }
 
-.students-life .students-life-gallery .gallery-item:hover .gallery-overlay span {
+.referee-education .referee-education-gallery .gallery-item:hover .gallery-overlay span {
   transform: translateY(0);
 }
 
-.students-life .cta-wrapper {
+.referee-education .cta-wrapper {
   margin-top: 80px;
 }
 
-.students-life .cta-wrapper .cta-content {
+.referee-education .cta-wrapper .cta-content {
   background: linear-gradient(135deg, var(--accent-color), color-mix(in srgb, var(--accent-color), purple 60%));
   border-radius: 15px;
   padding: 50px 40px;
@@ -3974,69 +3974,69 @@ section,
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
 }
 
-.students-life .cta-wrapper .cta-content h3 {
+.referee-education .cta-wrapper .cta-content h3 {
   color: var(--contrast-color);
   margin-bottom: 15px;
   font-size: 2rem;
 }
 
-.students-life .cta-wrapper .cta-content p {
+.referee-education .cta-wrapper .cta-content p {
   color: color-mix(in srgb, var(--contrast-color), transparent 20%);
   font-size: 1.1rem;
   margin-bottom: 0;
   max-width: 600px;
 }
 
-.students-life .cta-wrapper .cta-content .cta-buttons {
+.referee-education .cta-wrapper .cta-content .cta-buttons {
   display: flex;
   justify-content: flex-end;
   gap: 15px;
 }
 
 @media (max-width: 992px) {
-  .students-life .cta-wrapper .cta-content .cta-buttons {
+  .referee-education .cta-wrapper .cta-content .cta-buttons {
     justify-content: flex-start;
     margin-top: 20px;
   }
 }
 
 @media (max-width: 576px) {
-  .students-life .cta-wrapper .cta-content .cta-buttons {
+  .referee-education .cta-wrapper .cta-content .cta-buttons {
     flex-direction: column;
   }
 }
 
-.students-life .cta-wrapper .cta-content .cta-buttons .btn {
+.referee-education .cta-wrapper .cta-content .cta-buttons .btn {
   padding: 12px 30px;
   border-radius: 50px;
   font-weight: 500;
   transition: all 0.3s ease;
 }
 
-.students-life .cta-wrapper .cta-content .cta-buttons .btn.btn-primary {
+.referee-education .cta-wrapper .cta-content .cta-buttons .btn.btn-primary {
   background-color: var(--contrast-color);
   color: var(--accent-color);
   border: none;
 }
 
-.students-life .cta-wrapper .cta-content .cta-buttons .btn.btn-primary:hover {
+.referee-education .cta-wrapper .cta-content .cta-buttons .btn.btn-primary:hover {
   background-color: color-mix(in srgb, var(--contrast-color), transparent 10%);
   transform: translateY(-3px);
 }
 
-.students-life .cta-wrapper .cta-content .cta-buttons .btn.btn-outline {
+.referee-education .cta-wrapper .cta-content .cta-buttons .btn.btn-outline {
   border: 2px solid var(--contrast-color);
   color: var(--contrast-color);
   background-color: transparent;
 }
 
-.students-life .cta-wrapper .cta-content .cta-buttons .btn.btn-outline:hover {
+.referee-education .cta-wrapper .cta-content .cta-buttons .btn.btn-outline:hover {
   background-color: var(--contrast-color);
   color: var(--accent-color);
   transform: translateY(-3px);
 }
 
-.students-life .btn-explore {
+.referee-education .btn-explore {
   display: inline-flex;
   align-items: center;
   background-color: var(--accent-color);
@@ -4047,68 +4047,68 @@ section,
   transition: all 0.3s ease;
 }
 
-.students-life .btn-explore i {
+.referee-education .btn-explore i {
   margin-left: 8px;
   transition: all 0.3s ease;
 }
 
-.students-life .btn-explore:hover {
+.referee-education .btn-explore:hover {
   background-color: color-mix(in srgb, var(--accent-color), black 15%);
   color: var(--contrast-color);
   transform: translateY(-3px);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-.students-life .btn-explore:hover i {
+.referee-education .btn-explore:hover i {
   transform: translateX(5px);
 }
 
 @media (max-width: 992px) {
-  .students-life .tab-content-image {
+  .referee-education .tab-content-image {
     margin-bottom: 30px;
   }
 
-  .students-life .facilities-info {
+  .referee-education .facilities-info {
     margin-top: 30px;
   }
 }
 
 @media (max-width: 768px) {
-  .students-life .students-life-banner {
+  .referee-education .referee-education-banner {
     margin-bottom: 30px;
   }
 
-  .students-life .life-categories .category-card {
+  .referee-education .life-categories .category-card {
     margin-bottom: 15px;
   }
 
-  .students-life .students-life-tabs {
+  .referee-education .referee-education-tabs {
     margin-top: 40px;
   }
 
-  .students-life .students-life-tabs .nav-pills {
+  .referee-education .referee-education-tabs .nav-pills {
     margin-bottom: 30px;
   }
 
-  .students-life .cta-wrapper .cta-content {
+  .referee-education .cta-wrapper .cta-content {
     padding: 30px 25px;
   }
 
-  .students-life .cta-wrapper .cta-content h3 {
+  .referee-education .cta-wrapper .cta-content h3 {
     font-size: 1.5rem;
   }
 
-  .students-life .cta-wrapper .cta-content p {
+  .referee-education .cta-wrapper .cta-content p {
     font-size: 1rem;
   }
 }
 
 @media (max-width: 576px) {
-  .students-life .students-life-tabs .club-category {
+  .referee-education .referee-education-tabs .club-category {
     margin-bottom: 15px;
   }
 
-  .students-life .support-card {
+  .referee-education .support-card {
     margin-bottom: 15px;
   }
 }
@@ -5020,20 +5020,24 @@ section,
   z-index: 1;
 }
 
-.news-hero .post-item .post-img .category.entertainment {
+.news-hero .post-item .post-img .category.education {
   background-color: #e74c3c;
 }
 
-.news-hero .post-item .post-img .category.business {
+.news-hero .post-item .post-img .category.training {
   background-color: #3498db;
 }
 
-.news-hero .post-item .post-img .category.technology {
+.news-hero .post-item .post-img .category.certification {
   background-color: #2ecc71;
 }
 
-.news-hero .post-item .post-img .category.lifestyle {
+.news-hero .post-item .post-img .category.mentorship  {
   background-color: #9b59b6;
+}
+
+.news-hero .post-item .post-img .category.workshops {
+  background-color: #f39c12;
 }
 
 .news-hero .post-item .post-content .post-title {
